@@ -35,7 +35,7 @@ def poisk1(dire):
         print(f"По вашему запросу найдено {is_any_find} результатов.\nВот эти миссии:\n")
         for always_int1, moved_risults in enumerate(risults, start=1):
             print(f"{always_int1}._________________________________\n   |- Название: {moved_risults['name']} -|\n   |- Год: {moved_risults['year']} -|\n   |- Направление: {moved_risults['direction']} -|\n   |_______________________________")
-
+        nas = input("ВВЕДИТЕ ЛЮБОЙ СИМВОЛ И НАЖМИТЕ ENTER, ЧТОБЫ ВЫЙТИ!")
 
 
 
