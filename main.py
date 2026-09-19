@@ -26,8 +26,11 @@ def Main(missions_list):
     for always_int, moved_missions_list in enumerate(missions_list, start=1):
         print(f"{always_int}._________________________________\n   |- Название: {moved_missions_list['name']} -|\n   |- Год: {moved_missions_list['year']} -|\n   |- Направление: {moved_missions_list['direction']} -|\n   |_______________________________\n")
         xdwd(0.3)
+    print(f"\nВведите направление для поиска: ", end='')
+    dire = input()
 
-
+    poisk1(dire)
+    
 
 if __name__ == "__main__":
     Main(missions_list)
